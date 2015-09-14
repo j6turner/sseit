@@ -1,4 +1,4 @@
-package com.turner.sseit.actions.model;
+package com.turner.sseit.model;
 
 public class Record {
 

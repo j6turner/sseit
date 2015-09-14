@@ -1,6 +1,6 @@
-package com.turner.sseit.actions;
+package com.turner.sseit.controller;
 
-import com.turner.sseit.actions.model.Record;
+import com.turner.sseit.model.Record;
 
 public class EntryAction {
 
