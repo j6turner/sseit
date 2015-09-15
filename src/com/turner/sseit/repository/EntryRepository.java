@@ -1,6 +1,5 @@
 package com.turner.sseit.repository;
 
-import com.turner.sseit.model.Record;
 import com.turner.sseit.util.DbUtil;
 
 import java.sql.Connection;
@@ -20,8 +19,11 @@ public class EntryRepository {
             try {
                 String query = ("INSERT INTO entries (os, osVersion, notes) VALUES (os:VARCHAR, osVersion:VARCHAR , notes:VARCHAR)");
                 PreparedStatement ps = conn.prepareStatement(query);
+                //noinspection JpaQueryApiInspection
                 ps.setString(1, os);
+                //noinspection JpaQueryApiInspection
                 ps.setString(2, osVersion);
+                //noinspection JpaQueryApiInspection
                 ps.setString(3, notes);
                 ps.executeBatch();
                 ps.close();
