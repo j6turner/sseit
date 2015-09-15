@@ -15,20 +15,19 @@ public class EntryRepository {
         conn = DbUtil.getConnection();
     }
 
-    public void addRecord(Record record) throws SQLException {
+    public void addRecord(String os, String osVersion, String notes) throws SQLException {
         if (conn != null) {
             try {
                 String query = ("INSERT INTO entries (os, osVersion, notes) VALUES (os:VARCHAR, osVersion:VARCHAR , notes:VARCHAR)");
                 PreparedStatement ps = conn.prepareStatement(query);
-                ps.setString(1, record.getOs());
-                ps.setString(2, record.getOsVersion());
-                ps.setString(3, record.getNotes());
+                ps.setString(1, os);
+                ps.setString(2, osVersion);
+                ps.setString(3, notes);
                 ps.executeBatch();
                 ps.close();
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
         }
     }
 
