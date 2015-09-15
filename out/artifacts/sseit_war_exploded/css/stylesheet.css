@@ -1,0 +1,151 @@
+::-webkit-input-placeholder {
+    color: #D2FAEA;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: url('../img/cursor.png'), default;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: url('../img/cursor.png'), default;
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: url('../img/cursor.png'), default;
+}
+
+body {
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-color: transparent;
+    opacity: 0.9;
+    font-family: Times, Helvetica;
+    color: #B4B8B7;
+    text-align: center;
+    cursor: url('../img/cursor.png'), default;
+}
+
+h1 {
+    font-family: Georgia, Helvetica;
+    color: #04DB9E;
+    text-align: center;
+}
+
+h2 {
+    font-family: Times, Helvetica;
+    color: #FF0000;
+}
+
+h3 {
+    font-family: Times, Helvetica;
+    color: #04DB9E;
+}
+
+h4 {
+    font-family: Times, Helvetica;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: Times, Helvetica;
+}
+
+h6 {
+    font-family: Times, Helvetica;
+}
+
+img {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+input[type=submit] {
+    text-align: center;
+}
+
+label {
+
+}
+
+p {
+    color: #FFFFFF;
+}
+
+ul {
+    background-color: #B4B8B7;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.btn {
+    background: url('../img/btn02.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-color: transparent;
+    opacity: 0.9;
+    border: 2px solid #FFFFFF;
+    border-radius: 70px;
+    padding: 5px;
+    margin: 15px;
+    font-family: Verdana, Helvetica;
+    color: #FFFFFF;
+    float: left;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #FF6600;
+    border: 2px solid #FF6600;
+    cursor: url('../img/cursor.png'), default;
+}
+
+.entry {
+    background-color: #B4B8B7;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 1;
+}
+
+.exception {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 1;
+}
+
+.logo {
+    padding-top: 7px;
+    position: relative;
+}
+
+.navbar .navbar-nav {
+    background-color: transparent;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+}
+
+.textfield  {
+    display: inline-block;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 5px;
+}
