@@ -29,7 +29,7 @@ body {
     background-color: transparent;
     opacity: 0.9;
     font-family: Times, Helvetica;
-    color: #B4B8B7;
+    color: #FF0000;
     text-align: center;
     cursor: url('../img/cursor.png'), default;
 }
@@ -141,6 +141,15 @@ ul {
     margin-left: 1px;
     margin-right: 1px;
     text-align: center;
+}
+
+.result {
+    background-color: #FF6600;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 1;
 }
 
 .textfield  {

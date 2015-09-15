@@ -29,11 +29,13 @@
             <hr noshade />
             <div class="row-fluid">
                 <h4>OS Information</h4>
-                <div class="col-md-12">
-                    <p>Record: </p>
-                    <p>OS: <s:property value="os" /> <br /></p>
-                    <p>OS Version: <s:property value="osVersion" /> <br /></p>
-                    <p>Notes: <s:property value="notes" /></p>
+                <div class="result">
+                    <div class="col-md-12">
+                            <p>Record: </p>
+                            <p>OS: <s:property value="os" /> <br /></p>
+                            <p>OS Version: <s:property value="osVersion" /> <br /></p>
+                            <p>Notes: <s:property value="notes" /></p>
+                    </div>
                 </div>
             </div>
         </div>

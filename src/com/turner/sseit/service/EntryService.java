@@ -7,6 +7,7 @@ import java.sql.SQLException;
 public class EntryService {
 
     private EntryRepository entryRepository;
+    private Long id;
 
     public EntryService() {
         entryRepository = new EntryRepository();
