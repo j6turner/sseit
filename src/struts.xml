@@ -5,6 +5,9 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <include file="struts-default.xml" />
     <package name="default" namespace="/" extends="struts-default">
         <action name="result" class="com.turner.sseit.action.EntryAction" method="execute">
             <result name="input">/index.jsp</result>

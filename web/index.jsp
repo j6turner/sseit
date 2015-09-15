@@ -31,7 +31,7 @@
                     <s:form action="result" class="entry">
                         <s:textfield name="os" class="textfield" label="Operating System (OS)" placeholder="OS X"
                                      autofocus="autofocus" />
-                        <s:textfield name="osVersion" class="textfield" label="OS Version"  placeholder="10.0.3" />
+                        <s:textfield name="osVersion" class="textfield" label="OS Version" placeholder="10.0.3" />
                         <s:textarea name="notes" class="textfield" label="Notes" />
                         <s:submit value="Proceed" type="button" class="btn btn-default btn-lg" align="left" />
                     </s:form>

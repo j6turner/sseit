@@ -29,7 +29,7 @@ body {
     background-color: transparent;
     opacity: 0.9;
     font-family: Times, Helvetica;
-    color: #FF0000;
+    color: #FF6600;
     text-align: center;
     cursor: url('../img/cursor.png'), default;
 }
@@ -112,7 +112,7 @@ ul {
 }
 
 .entry {
-    background-color: #B4B8B7;
+    background-color: #5a5c5b;
     display: inline-block;
     border-radius: 5px;
     padding: 10px;

@@ -1,7 +1,7 @@
 package com.turner.sseit.util;
 
 import java.io.InputStream;
-import java.sql.Connection;
+import java.sql.*;
 import java.util.Properties;
 
 public class DbUtil {
@@ -23,7 +23,7 @@ public class DbUtil {
                 String password = properties.getProperty("");
 
                 Class.forName(dbDriver).newInstance();
-                conn = java.sql.DriverManager.getConnection(connectionUrl, user, password);
+                conn = DriverManager.getConnection(connectionUrl, user, password);
             } catch (Exception e) {
                 e.printStackTrace();
             }

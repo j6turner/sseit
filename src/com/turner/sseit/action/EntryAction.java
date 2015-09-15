@@ -1,6 +1,11 @@
 package com.turner.sseit.action;
 
 import com.turner.sseit.model.Record;
+import com.turner.sseit.util.DbUtil;
+
+import java.sql.Connection;
+//import java.sql.SQLException;
+//import java.sql.Statement;
 
 public class EntryAction {
 
@@ -8,8 +13,10 @@ public class EntryAction {
     private String os;
     private String osVersion;
     private String notes;
+    private Connection conn;
 
     public String execute() throws Exception {
+        conn = DbUtil.getConnection();
         return "success";
     }
 
