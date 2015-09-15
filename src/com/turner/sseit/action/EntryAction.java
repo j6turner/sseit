@@ -1,4 +1,4 @@
-package com.turner.sseit.controller;
+package com.turner.sseit.action;
 
 import com.turner.sseit.model.Record;
 
