@@ -11,7 +11,7 @@
     <package name="default" namespace="/" extends="struts-default">
         <action name="result" class="com.turner.sseit.action.EntryAction" method="execute">
             <result name="input">/index.jsp</result>
-            <result name="success">/log.jsp</result>
+            <result name="success" type="dispatcher">/log.jsp</result>
             <result name="error">/error.jsp</result>
         </action>
     </package>

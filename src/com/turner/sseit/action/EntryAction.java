@@ -1,13 +1,14 @@
 package com.turner.sseit.action;
 
+import com.opensymphony.xwork2.ActionSupport;
 import com.turner.sseit.model.Record;
 import com.turner.sseit.util.DbUtil;
 
 import java.sql.Connection;
-//import java.sql.SQLException;
+import java.sql.SQLException;
 //import java.sql.Statement;
 
-public class EntryAction {
+public class EntryAction extends ActionSupport {
 
     private Record record;
     private String os;
@@ -15,9 +16,15 @@ public class EntryAction {
     private String notes;
     private Connection conn;
 
-    public String execute() throws Exception {
+    @Override
+    public String execute() throws SQLException {
+        Connection conn;
         conn = DbUtil.getConnection();
-        return "success";
+        if (os != null && osVersion != null) {
+            return "success";
+        } else {
+            return "input";
+        }
     }
 
     public String getOs() {
