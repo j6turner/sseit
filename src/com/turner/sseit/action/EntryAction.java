@@ -14,9 +14,7 @@ public class EntryAction extends ActionSupport {
     private String os;
     private String osVersion;
     private String notes;
-    private Timestamp timestamp;
     private List<String> records;
-    private Connection conn;
 
     @Override
     public String execute() throws SQLException {
@@ -28,15 +26,12 @@ public class EntryAction extends ActionSupport {
 
         try {
 
-        // Execute a query
-        System.out.println("Creating statement....");
-        stmt = conn.createStatement();
-        String sqlSelect = "SELECT * FROM sseitturner.entries";
-        rs = stmt.executeQuery(sqlSelect);
-
-//        String query = "INSERT INTO entries (os, osVersion, notes) VALUES ('OS X', '10.0.3', 'Note.')";
-        String sqlInsert = "INSERT INTO sseitturner.entries (os, osVersion, notes) VALUES (?,?,?)";
-
+            // Execute query
+            System.out.println("Creating statement....");
+            stmt = conn.createStatement();
+            String sqlSelect = "SELECT * FROM sseitturner.entries";
+            rs = stmt.executeQuery(sqlSelect);
+            String sqlInsert = "INSERT INTO sseitturner.entries (os, osVersion, notes) VALUES (?,?,?)";
             ps = conn.prepareStatement(sqlInsert);
             ps.setString(1, getOs());
             ps.setString(2, getOsVersion());
@@ -51,7 +46,6 @@ public class EntryAction extends ActionSupport {
                 String osVersion = rs.getString("osVersion");
                 String notes = rs.getString("notes");
                 Timestamp timestamp = rs.getTimestamp("timestamp");
-
                 //  Display values
                 System.out.println("ID: " + id);
                 System.out.println("OS: " + os);
@@ -59,7 +53,6 @@ public class EntryAction extends ActionSupport {
                 System.out.println("Notes: " + notes);
                 System.out.println("Timestamp: " + timestamp);
             }
-
 
             return "success";
 
@@ -75,37 +68,16 @@ public class EntryAction extends ActionSupport {
             }
         }
 
+        // Validation
+        if (os != null && osVersion != null) {
+            return "success";
+        } else {
+            return "input";
+        }
 
-
-//
-//
-
-//
-//            //  Extract data from result set
-//            while(rs.next()) {
-//                //Retrieve by column name
-//                int id  = rs.getInt("id");
-//                String os = rs.getString("os");
-//                String osVersion = rs.getString("osVersion");
-//                String notes = rs.getString("notes");
-//                Timestamp timestamp = rs.getTimestamp("timestamp");
-//
-//                //  Display values
-//                System.out.println("ID: " + id);
-//                System.out.println("OS: " + os);
-//                System.out.println("OS Version: " + osVersion);
-//                System.out.println("Notes: " + notes);
-//                System.out.println("Timestamp: " + timestamp);
-//            }
-                if (os != null && osVersion != null) {
-                    return "success";
-                } else {
-                    return "input";
-                }
-//
     }
 
-
+    //  Getters and setters
     public String getOs() {
         return os;
     }
