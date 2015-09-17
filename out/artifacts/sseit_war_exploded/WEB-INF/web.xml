@@ -3,6 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <display-name>SSEIT</display-name>
     <filter>
         <filter-name>struts2</filter-name>
         <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
@@ -23,7 +24,8 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>entry</servlet-name>
-        <url-pattern>/index</url-pattern>
+        <!--<url-pattern>/index</url-pattern>-->
         <url-pattern>/log</url-pattern>
+        <!--<url-pattern>/error</url-pattern>-->
     </servlet-mapping>
 </web-app>

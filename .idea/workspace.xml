@@ -6,6 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971696de-d27b-463a-b7f5-a2f846f0b03a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/sseit_war_exploded/WEB-INF/classes/com/turner/sseit/action/EntryAction.class" afterPath="$PROJECT_DIR$/out/artifacts/sseit_war_exploded/WEB-INF/classes/com/turner/sseit/action/EntryAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sseit/com/turner/sseit/action/EntryAction.class" afterPath="$PROJECT_DIR$/out/production/sseit/com/turner/sseit/action/EntryAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction.java" afterPath="$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/sseit_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/sseit_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sseitTurner.iws" />
@@ -33,18 +39,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - sseitturner@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sseitturner" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="entries" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -57,40 +51,78 @@
         <entry file="file://$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#3397#3398#0" expanded="true" />
+                <element signature="e#3422#3423#0" expanded="true" />
+                <element signature="e#3458#3459#0" expanded="true" />
+                <element signature="e#3486#3487#0" expanded="true" />
+                <element signature="e#3522#3523#0" expanded="true" />
+                <element signature="e#3554#3555#0" expanded="true" />
+                <element signature="e#3604#3605#0" expanded="true" />
+                <element signature="e#3646#3647#0" expanded="true" />
+                <element signature="e#3678#3679#0" expanded="true" />
+                <element signature="e#3706#3707#0" expanded="true" />
+                <element signature="e#3748#3749#0" expanded="true" />
+                <element signature="e#3782#3783#0" expanded="true" />
+                <marker date="1442527930000" expanded="true" signature="873:906" placeholder="SELECT * FRO..entries..." />
+                <marker date="1442527930000" expanded="true" signature="979:1056" placeholder="INSERT INTO ..." />
+                <marker date="1442527930000" expanded="true" signature="1087:1156" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActionSupport.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/ActionSupport.class">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a349128-89d9-4355-8653-2101b9953da4/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-63.333332">
-              <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sseitturner.entries" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/4bc3f961/3a349128-89d9-4355-8653-2101b9953da4/sseitturner..entries">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sun-jaxws.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.655527">
+            <state vertical-scroll-proportion="-8.793103">
               <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
@@ -133,16 +165,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/error.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8333335">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,16 +183,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/log.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125">
-              <caret line="29" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -198,14 +210,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/actions/model/Record.java" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/actions/EntryAction.java" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/EntryAction.java" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/controller/EntryAction.java" />
         <option value="$PROJECT_DIR$/src/db.properties" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/model/Record.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3a349128-89d9-4355-8653-2101b9953da4/console.sql" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction-validation.xml" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/service/EntryService.java" />
         <option value="$PROJECT_DIR$/web/log.jsp" />
@@ -216,8 +226,11 @@
         <option value="$PROJECT_DIR$/web/error.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction-result-validation.xml" />
-        <option value="$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction.java" />
         <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="dbtable:/4bc3f961/3a349128-89d9-4355-8653-2101b9953da4/sseitturner..entries" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3a349128-89d9-4355-8653-2101b9953da4/console.sql" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction.java" />
       </list>
     </option>
   </component>
@@ -236,9 +249,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="y" value="22" />
-    <option name="width" value="1305" />
+    <option name="x" value="509" />
+    <option name="y" value="54" />
+    <option name="width" value="805" />
     <option name="height" value="780" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -249,12 +262,15 @@
             <id />
           </State>
           <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
             <id>SQL</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SqlDialectInspection</id>
+            <id>JpaQueryApiInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -872,16 +888,16 @@
       <created>1442241951835</created>
       <option name="number" value="Default" />
       <updated>1442241951835</updated>
-      <workItem from="1442241955388" duration="70163000" />
+      <workItem from="1442241955388" duration="97366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70163000" />
+    <option name="totallyTimeSpent" value="97366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="22" width="1305" height="780" extended-state="0" />
-    <editor active="false" />
+    <frame x="509" y="54" width="805" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -889,18 +905,18 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5070547" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38616714" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3857791" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32526475" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33751962" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32526475" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.4929453" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704404" sideWeight="0.4929453" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2715756" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22804718" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3222486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2293578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -937,30 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a349128-89d9-4355-8653-2101b9953da4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1026,19 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/4bc3f961/3a349128-89d9-4355-8653-2101b9953da4/sseitturner..entries">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/turner/sseit/util/DbUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1049,18 +1028,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/ActionSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-63.333332">
-          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.541667">
           <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/ActionSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.285714">
+          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1073,37 +1052,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.655527">
+        <state vertical-scroll-proportion="-8.793103">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/turner/sseit/action/EntryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3397#3398#0" expanded="true" />
+            <element signature="e#3422#3423#0" expanded="true" />
+            <element signature="e#3458#3459#0" expanded="true" />
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#3554#3555#0" expanded="true" />
+            <element signature="e#3604#3605#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
+            <element signature="e#3706#3707#0" expanded="true" />
+            <element signature="e#3748#3749#0" expanded="true" />
+            <element signature="e#3782#3783#0" expanded="true" />
+            <marker date="1442527930000" expanded="true" signature="873:906" placeholder="SELECT * FRO..entries..." />
+            <marker date="1442527930000" expanded="true" signature="979:1056" placeholder="INSERT INTO ..." />
+            <marker date="1442527930000" expanded="true" signature="1087:1156" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a349128-89d9-4355-8653-2101b9953da4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4bc3f961/3a349128-89d9-4355-8653-2101b9953da4/sseitturner..entries">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
