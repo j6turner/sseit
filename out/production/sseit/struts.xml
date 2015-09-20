@@ -9,10 +9,31 @@
     <constant name="struts.devMode" value="true" />
     <include file="struts-default.xml" />
     <package name="default" namespace="/" extends="struts-default">
+
+        <interceptors>
+            <interceptor-stack name="appDefaultStack">
+                <interceptor-ref name="defaultStack">
+                    <param name="exception.logEnabled">true</param>
+                    <param name="exception.logLevel">ERROR</param>
+                </interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+
+        <default-interceptor-ref name="appDefaultStack" />
+
+        <global-results>
+            <result name="error">/error.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error" />
+        </global-exception-mappings>
+
         <action name="result" class="com.turner.sseit.action.EntryAction" method="execute">
             <result name="input">/index.jsp</result>
             <result name="success" type="dispatcher">/log.jsp</result>
             <result name="error">/error.jsp</result>
         </action>
+
     </package>
 </struts>
