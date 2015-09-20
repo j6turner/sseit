@@ -31,10 +31,12 @@
                 <h4>OS Information</h4>
                 <div class="result">
                     <div class="col-md-12">
-                            <p>Record: </p>
-                            <p>OS: <s:property value="os" /> <br /></p>
-                            <p>OS Version: <s:property value="osVersion" /> <br /></p>
-                            <p>Notes: <s:property value="notes" /></p>
+                        <p>New record has been logged:</p>
+                        <ul>
+                            <li>OS: <strong><s:property value="os" /></strong></li>
+                            <li>OS Version: <strong><s:property value="osVersion" /></strong></li>
+                            <li>Notes: <strong><s:property value="notes" /></strong></li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -57,10 +57,12 @@ h4 {
 
 h5 {
     font-family: Times, Helvetica;
+    color: #FFFFFF;
 }
 
 h6 {
     font-family: Times, Helvetica;
+    color: #FFFFFF;
 }
 
 img {
@@ -77,8 +79,23 @@ label {
 
 }
 
+li {
+    color: #5A5C5B;
+    text-align: left;
+}
+
 p {
     color: #FFFFFF;
+}
+
+td {
+    padding: 3px;
+    text-align: center;
+}
+
+tr {
+    padding: 3px;
+    text-align: center;
 }
 
 ul {
@@ -112,7 +129,7 @@ ul {
 }
 
 .entry {
-    background-color: #5a5c5b;
+    background-color: #5A5C5B;
     display: inline-block;
     border-radius: 5px;
     padding: 10px;
@@ -144,12 +161,22 @@ ul {
 }
 
 .result {
-    background-color: #FF6600;
+    background-color: #5A5C5B;
     display: inline-block;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     opacity: 1;
+}
+
+.table-responsive {
+    background-color: #5A5C5B;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 1;
+    text-align: center;
 }
 
 .textfield  {
