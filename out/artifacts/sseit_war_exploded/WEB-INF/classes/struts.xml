@@ -27,6 +27,7 @@
 
         <global-exception-mappings>
             <exception-mapping exception="java.lang.Exception" result="error" />
+            <exception-mapping exception="java.sql.SQLException" result="error" />
         </global-exception-mappings>
 
         <action name="result" class="com.turner.sseit.action.EntryAction" method="execute">

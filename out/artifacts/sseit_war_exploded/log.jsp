@@ -40,6 +40,32 @@
                     </div>
                 </div>
             </div>
+            <div class="row-fluid">
+                <div class="table-responsive">
+                    <div class="col-md-12">
+                        <h5>All records:</h5>
+                        <table class="entries" border="2">
+                            <tr>
+                                <th>ID</th>
+                                <th>OS</th>
+                                <th>OS Version</th>
+                                <th>Notes</th>
+                                <th>Timestamp</th>
+                            </tr>
+                            <s:iterator value="list">
+                                <tr>
+                                    <td><s:property value="id" /></td>
+                                    <td><s:property value="os" /></td>
+                                    <td><s:property value="osVersion" /></td>
+                                    <td><s:property value="notes" /></td>
+                                    <td><s:property value="timestamp" /></td>
+                                </tr>
+                            </s:iterator>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </body>
 </html>

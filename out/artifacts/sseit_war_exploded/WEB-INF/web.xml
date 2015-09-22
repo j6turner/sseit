@@ -24,8 +24,8 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>entry</servlet-name>
-        <!--<url-pattern>/index</url-pattern>-->
+        <url-pattern>/index</url-pattern>
         <url-pattern>/log</url-pattern>
-        <!--<url-pattern>/error</url-pattern>-->
+        <url-pattern>/error</url-pattern>
     </servlet-mapping>
 </web-app>

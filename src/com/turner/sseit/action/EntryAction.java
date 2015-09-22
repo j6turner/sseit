@@ -5,24 +5,23 @@ import com.turner.sseit.model.Record;
 import com.turner.sseit.util.DbUtil;
 
 import java.sql.*;
-import java.util.List;
+import java.util.ArrayList;
 
 public class EntryAction extends ActionSupport {
 
-    private Record record;
-    private static final long serialVersionUID = 1L;
     private String os;
     private String osVersion;
     private String notes;
-    private List<String> records;
 
-    @Override
+    ArrayList<Record> list = new ArrayList<Record>();
+
     public String execute() throws SQLException {
         Connection conn;
-        PreparedStatement ps;
-        Statement stmt;
-        ResultSet rs;
         conn = DbUtil.getConnection();
+        PreparedStatement ps;
+        ResultSet rs;
+        Statement stmt;
+
 
         try {
 
@@ -38,20 +37,14 @@ public class EntryAction extends ActionSupport {
             ps.setString(3, getNotes());
             ps.executeUpdate();
 
-            //  Extract data from result set
-            while(rs.next()) {
-                //Retrieve by column name
-                int id  = rs.getInt("id");
-                String os = rs.getString("os");
-                String osVersion = rs.getString("osVersion");
-                String notes = rs.getString("notes");
-                Timestamp timestamp = rs.getTimestamp("timestamp");
-                //  Display values
-                System.out.println("ID: " + id);
-                System.out.println("OS: " + os);
-                System.out.println("OS Version: " + osVersion);
-                System.out.println("Notes: " + notes);
-                System.out.println("Timestamp: " + timestamp);
+            while (rs.next()) {
+                Record record = new Record();
+                record.setId(rs.getInt("id"));
+                record.setOs(rs.getString("os"));
+                record.setOsVersion(rs.getString("osVersion"));
+                record.setNotes(rs.getString("notes"));
+                record.setTimestamp(rs.getTimestamp("timestamp"));
+                list.add(record);
             }
 
             return "success";
@@ -100,6 +93,14 @@ public class EntryAction extends ActionSupport {
 
     public void setNotes(String notes) {
         this.notes = notes;
+    }
+
+    public ArrayList<Record> getList() {
+    return list;
+    }
+
+    public void setList(ArrayList<Record> list) {
+        this.list = list;
     }
 
 }

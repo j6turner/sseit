@@ -93,6 +93,11 @@ td {
     text-align: center;
 }
 
+th {
+    padding: 3px;
+    text-align: center;
+}
+
 tr {
     padding: 3px;
     text-align: center;
