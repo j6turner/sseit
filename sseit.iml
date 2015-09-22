@@ -34,6 +34,6 @@
     <orderEntry type="library" exported="" name="Struts 2-2.3.20.1" level="project" />
     <orderEntry type="library" exported="" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" level="project" />
     <orderEntry type="library" exported="" name="jdbc-drivers" level="project" />
-    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>
