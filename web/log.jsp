@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
-        <title>SSE Interview Test || Entry</title>
+        <title>SSE Interview Test || Log</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
