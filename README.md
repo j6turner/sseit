@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS entries
 );
 ```
 
-If using IntelliJ IDEA, connect to the database resources through the database tool window in the menu (View : Tool Windows : Database) or refer to the 'script.sql' file to run the script. Connection details are as follows:
+The project folder contains the file 'script.sql' for reference or to run the script. Connection details are as follows:
 
 Host = 'localhost'
 Port = '3306'
@@ -44,14 +44,7 @@ Password = ''
 Usage
 -----
 
-If using IntelliJ IDEA, deploy the 'sseit:war exploded' artifact (or the WAR file for 'sseit:war exploded'). The main module of this application is 'sseit.' The SDK configured for this module is '1.8 (java version 1.8.0_60)' and the application server configured for this module is 'GlassFish 4.1.02' (details can be checked or set through the IntelliJ IDEA menu under File : Project Structure and under Run : Edit Configurations). The application server port is '8080,' the URL is 'http://localhost:8080/sseit_war_exploded/' (browser root page), and the GlassFish server settings are as follows:
-
- Server Domain = "domain1"
- Username = "admin"
- 
- To open a browser window to view the application, click on Run : Run GlassFish4.1.02 in the menu. The project is set to update resources each time the 'Run' button is clicked; if a pop-up window poses the option to update resources, click 'OK.'
- 
-If using the terminal (Mac) or CMD (Windows) to view this project, change directories (cd) to the location of the project folder via one window and open another window to start the GlassFish server (assuming GlassFish is installed on the system; visit [this link](https://docs.oracle.com/javaee/6/tutorial/doc/bnadi.html) for more information). At the prompt, type 'asadmin start-domain --verbose' to start the server and 'asadmin stop-domain domain1' to stop the server. Alternatively, on Windows, the server can be accessed through the menu as follows: Start : All Programs : Java SDK : Start Application Server. Once the server is running, navigate to 'http://localhost:8080/sseit_war_exploded/' in a Web browser window. Otherwise, an application server such as Tomcat or Jetty can be utilized by copying the WAR file to the correct location (webapps directory).
+The application server port is '8080' and the URL is 'http://localhost:8080/{...}/' (browser root page). To deploy the Web application using Tomcat, copy the WAR file 'sseit_war.war' into the '$CATALINA_HOME\webapps' directory. Restart the Tomcat server. When the Tomcat server is started, 'sseit_war.war' will be unpacked and launched from the 'webapps' directory.
 
 
 Known Bugs
