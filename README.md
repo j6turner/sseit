@@ -1,4 +1,4 @@
-Software Support Engineer Interview Test
+SSEIT
 ============
 
 This Web app allows the user to input development environments, submit that information, and view all records stored in the database. The required fields are "Operating System (OS)" and "OS Version," whereas inputting data into the "Notes" field is optional.
