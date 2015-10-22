@@ -16,7 +16,6 @@
                             <img src="img/jt.png" alt="Logo" />
                         </div>
                         <div class="col-md-6">
-                            <h1>JULIE TURNER</h1>
                             <h3>Software Support Engineer Interview Test</h3>
                         </div>
                     </div>
@@ -40,4 +39,3 @@
         </div>
     </body>
 </html>
-
